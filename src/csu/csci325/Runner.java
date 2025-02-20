@@ -11,7 +11,7 @@ public class Runner extends TeamMember{
     public boolean runRace(){
         boolean win=false;
         racesCompleted++;
-        if (speed + this.didStretch() > 10){
+        if (speed + this.didStretch() > 7){
             win=true;
         }
         return win;
