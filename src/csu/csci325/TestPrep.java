@@ -11,7 +11,6 @@ package csu.csci325;
  * @author jlgreen
  */
 public class TestPrep {
-    public static void main(String[] args) {
         
     public static void main(String[] args){
         int[] testRaces = {100, 200, 400};
@@ -91,4 +90,4 @@ public class TestPrep {
         sam.attendMeet();
     }
     }
-}
+
