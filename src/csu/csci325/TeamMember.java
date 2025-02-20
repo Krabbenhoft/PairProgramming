@@ -15,6 +15,9 @@ public class TeamMember {
     public void attendMeet () {
         meetsAttended++;
     }
+        public void attendMeet (int ammount) {
+        meetsAttended+=ammount;
+    }
     
     public TeamMember(String name, String teamName, int age, int meetsAttended) {
         this.name = name;
@@ -57,5 +60,5 @@ public class TeamMember {
     }
     
     
-    
+
 }
