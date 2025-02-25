@@ -15,7 +15,8 @@ public class TeamMember {
     public void attendMeet () {
         meetsAttended++;
     }
-        public void attendMeet (int ammount) {
+    
+    public void attendMeet (int ammount) {
         meetsAttended+=ammount;
     }
     
@@ -24,6 +25,13 @@ public class TeamMember {
         this.teamName = teamName;
         this.age = age;
         this.meetsAttended = meetsAttended;
+    }
+    
+        public TeamMember(String name, String teamName) {
+        this.name = name;
+        this.teamName = teamName;
+        this.age = -1;
+        this.meetsAttended = -1;
     }
     
     

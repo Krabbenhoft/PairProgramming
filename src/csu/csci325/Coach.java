@@ -37,7 +37,8 @@ public class Coach extends TeamMember{
         runner.setSpeed(runner.getSpeed()+1);
     }
     
-    @Override public void attendMeet(){
+    @Override
+    public void attendMeet(){
         System.out.println("This coach attended the meet with " + numRunners + " Runners");
     }
 }
